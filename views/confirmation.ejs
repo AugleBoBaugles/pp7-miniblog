@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h1>Post Submitted Successfully</h1>
+    <div class="blogEntry">
+        <p>Title: <%= post.title %></p>
+        <p>Content: <%= post.content %> </p>
+        
+        <p>Author: <%= post.author %> </p>
+        <p><%= post.time %></p>
+    </div>
+    <hr>
+    <a href="/entries">View All Entries</a>
+
+    
+</body>
+</html>
